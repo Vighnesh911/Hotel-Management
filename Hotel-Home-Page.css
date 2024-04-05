@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.sub-container {
+    border-radius: 22px;
+}
+
+.vl {
+    border-left: 1px solid lightgray;
+    height: 40px;
+    margin: 10px;
+}
+
+.search {
+    background-color: #f56767;
+    color: white;
+    border-radius: 40px;
+}
+
+.ul-list-1 {
+    list-style-type: none;
+    margin: 0 0 0 10px;
+}
+
+.location {
+    padding: 10px;
+    color: #f56767;
+}
+
+.cont-4 {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    display: none;
+    margin-top: 20px;
+}
+
+.hotel-home-page {
+    background-color: #1f1c1c;
+    padding: 20px;
+    margin: 0px;
+}
+
+.login-container {
+    text-align: right;
+}
+
+.button-login {
+    background-color: #f56767;
+    color: white;
+    border-width: 0px;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+}
+
+.container-1 {
+    background-color: #f0faf9;
+    border-radius: 10px;
+}
+
+.para-4 {
+    font-size: 20px;
+}
+
+.head {
+    font-size: 20px;
+    margin: 0 0 10px 10px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.play {
+    color: #f56767;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    padding: 9px 14px 13px 12px;
+}
+
+.sub-1 {
+    display: flex;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.para {
+    margin: 3px 0 0 10px;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pipe {
+    color: grey;
+    margin: 4px 0 0 10px;
+}
+
+.sub-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px 10px 20px 10px;
+}
+
+.head-2 {
+    font-size: 18px;
+}
+
+@media screen and (min-width:576px) {
+    .card {
+        width: 70%;
+    }
+
+    .image-2 {
+        height: 200px;
+    }
+}
+
+.sub-3 {
+    display: flex;
+    margin: 0 10px 0 0;
+}
+
+.star {
+    color: yellow;
+}
+
+.star-1 {
+    color: gray;
+}
+
+.para-1 {
+    margin-left: 8px;
+}
+
+.para-2 {
+    color: gray;
+}
+
+.button-contact {
+    background-color: #f56767;
+    color: white;
+    border-width: 0;
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+
+.button-contact-1 {
+    background-color: #f56767;
+    color: white;
+    border-width: 0;
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+
+
+.desktop {
+    color: #f56767;
+    margin-bottom: 13px;
+}
+
+.card-1 {
+    text-align: center;
+    height: 140px;
+    width: 140px;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para-3 {
+    font-size: 14px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.pool-image {
+    width: 100%;
+    border-radius: 22px;
+}
+
+.pool-card {
+    background-color: white;
+    margin: 20px 0 20px 0;
+    border-radius: 6px;
+}
+
+.pool-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 35px 0 35px;
+}
+
+
+.sub-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.e-1 {
+    margin: 15px;
+}
+
+.sub-e-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.e-head {
+    font-size: 22px;
+    margin-left: 40px;
+}
+
+.map-container {
+    background-image: url('https://res.cloudinary.com/dtqmufptd/image/upload/v1696437048/IMG_20231004_220033_r6l3fr.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 0 0 40px 0;
+}
+
+.frequently-head {
+    margin-top: 20px;
+}
+
+.map-card {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.icon {
+    color: blue;
+}
+
+.icon-r {
+    color: red;
+}
+
+.icon-g {
+    color: orange;
+}
+
+.ul-list {
+    list-style-type: none;
+}
+
+.end-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f56767;
+    padding: 30px;
+    color: white;
+    justify-content: space-around;
+}
+
+.c-1 {
+    padding: 25px;
+}
+
+.head-1 {
+    font-size: 30px;
+}
+
+.sub-c-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-3 {
+    margin: 50px 0 50px 0;
+}
+
+
+@media screen and (min-width:768px) {
+    .card {
+        width: 45%;
+    }
+
+    .image {
+        height: 380px;
+    }
+
+    .hea {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .button-contact {
+        margin: 40px 0 40px 0;
+    }
+
+    .card {
+        width: 40%;
+    }
+
+    .cont-4 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .map-card {
+        margin: 40px;
+        padding: 40px;
+    }
+
+
+    .sub-c-3 {
+        justify-content: flex-start;
+    }
+
+    .c-2 {
+        display: flex;
+    }
+
+    .button-contact-1 {
+        margin-left: auto;
+    }
+
+    .input {
+        padding-top: 6px;
+        margin-right: 20px;
+    }
+
+    .pool-container {
+        padding: 20px 30px 20px 20px;
+    }
+
+    .container-3 {
+        margin: 125px 0 125px 0;
+    }
+
+    .pool-image {
+        height: 470px;
+    }
+
+    .c-1 {
+        padding: 40px;
+    }
+
+    .cont-3 {
+        margin: 70px 0 80px 0;
+    }
+
+    .card {
+        width: 31%;
+        margin-right: 11px;
+        margin-bottom: 40px;
+    }
+
+    .card-1 {
+        height: 145px;
+        width: 145px;
+    }
+
+    .image-2 {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .head {
+        font-size: 25px;
+        margin: 0 0 10px 15px;
+    }
+
+    .heading {
+        font-size: 60px;
+    }
+
+    .image {
+        height: 520px;
+    }
+
+    .hotel-home-page {
+        padding: 60px;
+    }
+}
+
+@media screen and (min-width:1250px) {
+    .card {
+        width: 31%;
+    }
+}
